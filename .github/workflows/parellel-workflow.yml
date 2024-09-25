@@ -70,7 +70,7 @@ jobs:
 
       - name: Run tests
         run: npm test
-        working-directory: .github/workflows  # Path to your package.json
+        working-directory: .github/workflows  # Path to your package.json   
 
       - name: Debug message
         if: env.DEBUG == 'true'
